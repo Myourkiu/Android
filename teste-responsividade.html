@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 280px;
+            /* min width: geralmente se coloca 320px por ser a resolução de celulares bem antigos, neste caso, se colocou menos por conta do padding.
+            
+            Significado: largura mínima que o elemento indicado pode conter. */
+            max-width: 800px;
+            /* 
+            max width: quando ele tiver 800px na tela, ele para de crescer
+
+            Significado: largura máxima que o elemento inidicado pode conter para não quebrar*/
+            margin: auto;
+            /* Usado para centralizar tudo usando a margem */
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Responsividade</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolore voluptatum enim laudantium blanditiis molestias perferendis temporibus neque nesciunt architecto dolores aliquam officia repellat repudiandae ut, dolorum exercitationem animi fuga, quaerat et commodi tenetur! Iste aperiam voluptas ut molestias labore eos exercitationem est temporibus quaerat. Facilis rem veritatis eos sunt amet, ad voluptatum deserunt? Enim, temporibus repellat cupiditate corporis numquam maxime omnis tenetur deserunt adipisci. Vero in dolor tenetur! Magnam nobis nemo iste ipsum sunt cumque repellendus assumenda fuga. Temporibus incidunt, vitae et ducimus minus vel officiis omnis veniam, voluptas accusantium est facere. Veniam, repellendus. Dolores earum velit perspiciatis.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam natus quae ab provident sapiente aut soluta commodi consequatur vero ratione odio voluptas, at dignissimos officiis deleniti inventore tenetur eveniet nemo aliquam praesentium atque harum voluptatibus beatae laborum! Dignissimos perspiciatis, quibusdam libero nemo doloribus quas? Et architecto, ipsam laboriosam delectus quisquam, nisi ut officia adipisci quos saepe fugit, amet autem excepturi quo totam velit repudiandae cumque unde recusandae. Odio, eaque!</p>
+
+        <picture>
+            <source media="(max-width: 600px)" srcset="./imagens/irina-blok-pq.jpg"> 
+            <!--Quando chegar na largura de 600px, vai tentar carregar a irina-blok-pq.jpg-->
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+        
+        
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quasi magnam eos ipsam, labore aliquid corporis dolor recusandae repellendus hic impedit perspiciatis eligendi ex, totam vel sapiente quo eum. Ea, temporibus repellendus! Temporibus molestiae quisquam suscipit molestias amet debitis et, dolore exercitationem, repellat voluptatum non minima cum dolorum earum doloremque quod aliquam fugiat sunt repudiandae. Asperiores, debitis necessitatibus in ducimus sunt illum, mollitia blanditiis saepe fuga qui deleniti labore. Perferendis quaerat id aliquid impedit? Dignissimos, nam, optio ratione numquam non porro accusamus voluptates magnam animi fugit error? Optio pariatur adipisci quia aperiam rerum quis minima modi officia quod nam.
+        </p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam vel quas nemo voluptatem molestias accusamus eveniet iusto impedit! Nesciunt deleniti ad dolorum molestias dolore cum a laboriosam, quis repellat vero.</p>
+    </main>
+</body>
+</html>
